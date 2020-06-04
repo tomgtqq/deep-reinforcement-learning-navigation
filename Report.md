@@ -6,7 +6,7 @@ The report is for Udacity Deep Reinforcement learning course to train an agent t
 
 ## Algorithm
 I implement the Deep Q Network (DQN) algorithm following the [Human-level control through deep reinforcement learning](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf)
-and DQN coding exercise.DQN combines off-policy training and bootstrapping from traditional Q-learning with function approximation using neural networks.  This makes if very effective at learning even in high dimensional continuous state spaces.
+and DQN coding exercise.DQN combines off-policy training and bootstrapping from traditional Q-learning with function approximation using neural networks.  This makes it very effective at learning even in high dimensional continuous state spaces.
 
 When the agent interacts with the environment, the sequence of experience can be highly correlated. "Experience Replay" is effective method to prevent action values from oscillating or diverging catastrophically.Fixed-Q targets use a second neural "qnetwork_target" to estimate TD target that do not change weights as quickly as the "qnetwork_local" . Both networks are initialized by "class QNetwork"
 
