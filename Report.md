@@ -4,7 +4,7 @@
 
 The report is for Udacity Deep Reinforcement learning course to train an agent to navigate and collect bananas in a large, square world. A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.The Project get an average score of +13 over 100 consecutive episodes.
 
-#### Algorithm
+## Algorithm
 I implement the Deep Q Network (DQN) algorithm following the [Human-level control through deep reinforcement learning](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf)
 and DQN coding exercise.DQN combines off-policy training and bootstrapping from traditional Q-learning with function approximation using neural networks.  This makes if very effective at learning even in high dimensional continuous state spaces.
 
@@ -14,7 +14,7 @@ I also implement enhancements[Double DQN](https://arxiv.org/pdf/1509.06461.pdf) 
 selection and action evaluation.
 
 
-#### Neural network model
+## Neural network model
 
     The neural network model as function approximation consists of tree fully connected linear layers Activation fucntion is relu. The hyperparameters are set as following.
 
@@ -50,7 +50,7 @@ Fully connected linear units set as 16
 fc1_units = 16
 fc2_units = 16
 ```
-#### Results
+## Results
 The results are the average number of episodes required to solve the environment. 
 
 
@@ -87,8 +87,8 @@ Solved in 1 episodes!	Score: 15.0 |  Solved in 3 episodes!	Score: 15.0
 :-------------------------:|:-------------------------:
 ![result](assets/result_0_16_16.png)  |  ![result](assets/result_1_16_16.png)
 
-#### Conclusion
+## Conclusion
 The number of FC units will affect the performance of agents. In this experiment, setting 128x128 is the best effect. If greater than 256x256, the effect is not significantly improved.
 
-#### Future enhancements
+## Future enhancements
 I implement "(Optional) Challenge: Learning from Pixels" using CNNs model. The training is slow by GPU. I could use AWS to train the model , and implement some of the more effective DQN modification like [Rainbow](https://arxiv.org/pdf/1710.02298.pdf)
