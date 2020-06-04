@@ -54,7 +54,7 @@ fc2_units = 16
 The results are the average number of episodes required to solve the environment. 
 
 
-|  FC units  |   DQN (episodes) | average Score | Double DQN (episodes) | average Score |
+|  FC units  |   DQN (episodes) | Average Score | Double DQN (episodes) | Average Score |
 |------------|------------------|---------------|-----------------------|---------------|
 |  (256 256) |  558             | 13.06         |  426                  | 13.02         |
 |  (128 128) |  435             | 13.00         |  **431**              | **13.02**     |
