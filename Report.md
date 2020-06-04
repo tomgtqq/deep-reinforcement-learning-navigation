@@ -88,7 +88,7 @@ Solved in 1 episodes!	Score: 15.0 |  Solved in 3 episodes!	Score: 15.0
 ![result](assets/result_0_16_16.png)  |  ![result](assets/result_1_16_16.png)
 
 #### Conclusion
-The number of FC units will affect the performance of agents. In this experiment, setting 128*128 is the best effect. If greater than 256*256, the effect is not significantly improved.
+The number of FC units will affect the performance of agents. In this experiment, setting 128x128 is the best effect. If greater than 256x256, the effect is not significantly improved.
 
 #### Future enhancements
 I implement "(Optional) Challenge: Learning from Pixels" using CNNs model. The training is slow by GPU. I could use AWS to train the model , and implement some of the more effective DQN modification like [Rainbow](https://arxiv.org/pdf/1710.02298.pdf)
