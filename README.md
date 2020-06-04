@@ -65,19 +65,28 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
 
 ![Kernel][image2]
 
-## Versioning
+### Running
+
+```
+conda activate drlnd
+
+jupyter notebook 
+```
+Then select Navigation.ipynb and running 
+
+### Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
-## Built With
+### Built With
 
 * [Udacity](https://github.com/udacity/deep-reinforcement-learning) - Udacity Deep Reinforcement learning nd
 * [Unity](https://github.com/Unity-Technologies/ml-agents/tree/master/docs) - Unity ML-Agents Toolkit Documentation
 
-## Authors
+### Authors
 
 * **Tom Ge** - *Fullstack egineer* - [github profile](https://github.com/tomgtqq)
 
-## License
+### License
 
 This project is licensed under the MIT License
